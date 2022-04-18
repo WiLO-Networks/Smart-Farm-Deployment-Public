@@ -1,6 +1,6 @@
 # Smart-Farm-Deployment-Public
 
-## Setup Environment
+## Setup Environment (PC)
 
 ### 1. Install VS Code
 
@@ -22,7 +22,7 @@ More information on this tutorial for PlatformIO: <https://docs.platformio.org/e
 
 ## Program MCU
 
-### 1. Change Longitude and Latitude for Node
+### 1. Change Longitude and Latitude (Node)
 
 Line 1002 and 1003 of file `duke-smart-farm-deployment`:
 
@@ -33,7 +33,7 @@ prep_data_json["lng"] = "-73.9566026";
 
 When you program the 'nodes', change the latitude and longitude according to the Google Map localizaiton on your smart-phone.
 
-### 2. Change Configuration
+### 2. Change Configuration (Node and Gateway)
 
 There are two sets of configurations in the file `platformio.ini`, you may need to:
 
@@ -42,7 +42,7 @@ There are two sets of configurations in the file `platformio.ini`, you may need 
 
 On Mac, select multiple lines, use `command + /` to do quick comment.
 
-### 3. Upload Code
+### 3. Upload Code (Node and Gateway)
 
 Connect the MCU to your laptop with the USB cable.
 
@@ -50,7 +50,7 @@ Connect the MCU to your laptop with the USB cable.
 
 Click the "Upload" button in PlatformIO toolbar: <https://docs.platformio.org/en/latest//integration/ide/vscode.html#platformio-toolbar>
 
-## Check battery and Reboot
+## Check Battery and Reboot (Node)
 
 Refer to file `test/node.jpg`
 
